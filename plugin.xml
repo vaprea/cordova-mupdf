@@ -41,78 +41,78 @@
 
 
     <!-- include:fitz -->
-    <header-file src="src/ios/include/mupdf/fitz.h" target-dir="fitz.h"/>
-    <header-file src="src/ios/include/mupdf/fitz/annotation.h" />
-    <header-file src="src/ios/include/mupdf/fitz/bitmap.h" />
-    <header-file src="src/ios/include/mupdf/fitz/buffer.h" />
-    <header-file src="src/ios/include/mupdf/fitz/colorspace.h" />
-    <header-file src="src/ios/include/mupdf/fitz/compressed-buffer.h" />
-    <header-file src="src/ios/include/mupdf/fitz/context.h" />
-    <header-file src="src/ios/include/mupdf/fitz/crypt.h" />
-    <header-file src="src/ios/include/mupdf/fitz/device.h" />
-    <header-file src="src/ios/include/mupdf/fitz/display-list.h" />
-    <header-file src="src/ios/include/mupdf/fitz/document.h" />
-    <header-file src="src/ios/include/mupdf/fitz/filter.h" />
-    <header-file src="src/ios/include/mupdf/fitz/font.h" />
-    <header-file src="src/ios/include/mupdf/fitz/function.h" />
-    <header-file src="src/ios/include/mupdf/fitz/getopt.h" />
-    <header-file src="src/ios/include/mupdf/fitz/glyph-cache.h" />
-    <header-file src="src/ios/include/mupdf/fitz/glyph.h" />
-    <header-file src="src/ios/include/mupdf/fitz/hash.h" />
-    <header-file src="src/ios/include/mupdf/fitz/image.h" />
-    <header-file src="src/ios/include/mupdf/fitz/link.h" />
-    <header-file src="src/ios/include/mupdf/fitz/math.h" />
-    <header-file src="src/ios/include/mupdf/fitz/outline.h" />
-    <header-file src="src/ios/include/mupdf/fitz/output.h" />
-    <header-file src="src/ios/include/mupdf/fitz/output-pcl.h" />
-    <header-file src="src/ios/include/mupdf/fitz/output-png.h" />
-    <header-file src="src/ios/include/mupdf/fitz/output-pnm.h" />
-    <header-file src="src/ios/include/mupdf/fitz/output-pwg.h" />
-    <header-file src="src/ios/include/mupdf/fitz/output-svg.h" />
-    <header-file src="src/ios/include/mupdf/fitz/output-tga.h" />
-    <header-file src="src/ios/include/mupdf/fitz/path.h" />
-    <header-file src="src/ios/include/mupdf/fitz/pixmap.h" />
-    <header-file src="src/ios/include/mupdf/fitz/shade.h" />
-    <header-file src="src/ios/include/mupdf/fitz/store.h" />
-    <header-file src="src/ios/include/mupdf/fitz/stream.h" />
-    <header-file src="src/ios/include/mupdf/fitz/string.h" />
-    <header-file src="src/ios/include/mupdf/fitz/structured-text.h" />
-    <header-file src="src/ios/include/mupdf/fitz/system.h" />
-    <header-file src="src/ios/include/mupdf/fitz/text.h" />
-    <header-file src="src/ios/include/mupdf/fitz/transition.h" />
-    <header-file src="src/ios/include/mupdf/fitz/tree.h" />
-    <header-file src="src/ios/include/mupdf/fitz/unzip.h" />
-    <header-file src="src/ios/include/mupdf/fitz/version.h" />
-    <header-file src="src/ios/include/mupdf/fitz/write-document.h" />
-    <header-file src="src/ios/include/mupdf/fitz/xml.h" />
+    <header-file src="src/ios/include/mupdf/fitz.h" target-dir="mupdf/"/>
+    <header-file src="src/ios/include/mupdf/fitz/annotation.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/bitmap.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/buffer.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/colorspace.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/compressed-buffer.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/context.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/crypt.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/device.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/display-list.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/document.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/filter.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/font.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/function.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/getopt.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/glyph-cache.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/glyph.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/hash.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/image.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/link.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/math.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/outline.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/output.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/output-pcl.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/output-png.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/output-pnm.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/output-pwg.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/output-svg.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/output-tga.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/path.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/pixmap.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/shade.h"  target-dir="mupdf/fitz/"/>
+    <header-file src="src/ios/include/mupdf/fitz/store.h"  target-dir="mupdf/fitz/"/>
+    <header-file src="src/ios/include/mupdf/fitz/stream.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/string.h" target-dir="mupdf/fitz/"  />
+    <header-file src="src/ios/include/mupdf/fitz/structured-text.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/system.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/text.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/transition.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/tree.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/unzip.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/version.h" target-dir="mupdf/fitz/" />
+    <header-file src="src/ios/include/mupdf/fitz/write-document.h"  target-dir="mupdf/fitz/"/>
+    <header-file src="src/ios/include/mupdf/fitz/xml.h" target-dir="mupdf/fitz/" />
 
     <!-- include: html -->
-    <header-file src="src/ios/include/mupdf/html.h"/>
+    <header-file src="src/ios/include/mupdf/html.h" target-dir="mupdf/"/>
 
     <!-- include: memento -->
-    <header-file src="src/ios/include/mupdf/memento.h"/>
+    <header-file src="src/ios/include/mupdf/memento.h" target-dir="mupdf/"/>
 
     <!-- include: pdf -->
-    <header-file src="src/ios/include/mupdf/pdf.h"/>
-    <header-file src="src/ios/include/mupdf/pdf/annot.h" />
-    <header-file src="src/ios/include/mupdf/pdf/appearance.h" />
-    <header-file src="src/ios/include/mupdf/pdf/clean.h" />
-    <header-file src="src/ios/include/mupdf/pdf/cmap.h" />
+    <header-file src="src/ios/include/mupdf/pdf.h" target-dir="mupdf/pdf/"/>
+    <header-file src="src/ios/include/mupdf/pdf/annot.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/appearance.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/clean.h"  target-dir="mupdf/pdf/"/>
+    <header-file src="src/ios/include/mupdf/pdf/cmap.h" target-dir="mupdf/pdf/" />
     <!--<header-file src="src/ios/include/mupdf/pdf/crypt.h" /> --> <!--  in fitz -->
     <!--<header-file src="src/ios/include/mupdf/pdf/document.h" />--> <!-- in fitz -->
-    <header-file src="src/ios/include/mupdf/pdf/event.h" />
-    <header-file src="src/ios/include/mupdf/pdf/field.h" />
+    <header-file src="src/ios/include/mupdf/pdf/event.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/field.h" target-dir="mupdf/pdf/" />
     <!--<header-file src="src/ios/include/mupdf/pdf/font.h" /> --> <!-- in fitz -->
-    <header-file src="src/ios/include/mupdf/pdf/interpret.h" />
-    <header-file src="src/ios/include/mupdf/pdf/javascript.h" />
-    <header-file src="src/ios/include/mupdf/pdf/name-table.h" />
-    <header-file src="src/ios/include/mupdf/pdf/object.h" />
-    <header-file src="src/ios/include/mupdf/pdf/output-pdf.h" />
-    <header-file src="src/ios/include/mupdf/pdf/page.h" />
-    <header-file src="src/ios/include/mupdf/pdf/parse.h" />
-    <header-file src="src/ios/include/mupdf/pdf/resource.h" />
-    <header-file src="src/ios/include/mupdf/pdf/widget.h" />
-    <header-file src="src/ios/include/mupdf/pdf/xref.h" />
+    <header-file src="src/ios/include/mupdf/pdf/interpret.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/javascript.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/name-table.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/object.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/output-pdf.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/page.h"  target-dir="mupdf/pdf/"/>
+    <header-file src="src/ios/include/mupdf/pdf/parse.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/resource.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/widget.h" target-dir="mupdf/pdf/" />
+    <header-file src="src/ios/include/mupdf/pdf/xref.h" target-dir="mupdf/pdf/" />
 
     <!-- include: pdf-tools -->
     <header-file src="src/ios/include/mupdf/pdf-tools.h"/>
@@ -217,7 +217,7 @@
 
     <config-file target="config.xml" parent="/*">
       <feature name="MuPdfPlugin">
-        <param name="android-package" value="com.artifex.mupdfdemo.MuPdfPlugin" />
+        <param name="android-package" value="it.webji.cordova.mupdf.MuPdfPlugin" />
       </feature>
     </config-file>
 
@@ -233,6 +233,12 @@
           android:label="@string/app_name"
           android:configChanges="orientation|keyboardHidden|screenSize"
           android:theme="@android:style/Theme.Light.NoTitleBar"/>
+
+      <activity
+              android:name="com.artifex.mupdfdemo.OutlineActivity"
+              android:label="@string/app_name"
+              android:configChanges="orientation|keyboardHidden|screenSize"
+              android:theme="@android:style/Theme.Light.NoTitleBar"/>
     </config-file>
 
     <source-file src="src/android/MuPdfPlugin.java" target-dir="src/it.webji.cordova.mupdf" />
