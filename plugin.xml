@@ -39,15 +39,9 @@
     <source-file src="src/ios/thirdparty/libopenjpeg.a" framework="true" />
     <source-file src="src/ios/thirdparty/libz.a" framework="true" />
 
-    <!-- basic files -->
-    <source-file src="src/ios/common.m" compiler-flags="-fno-objc-arc"/>
-    <header-file src="src/ios/common.h" compiler-flags="-fno-objc-arc"/>
-    <source-file src="src/ios/MuPdfPlugin.m"/>
-    <header-file src="src/ios/MuPdfPlugin.h"/>
-
 
     <!-- include:fitz -->
-    <header-file src="src/ios/include/mupdf/fitz.h"/>
+    <header-file src="src/ios/include/mupdf/fitz.h" target-dir="fitz.h"/>
     <header-file src="src/ios/include/mupdf/fitz/annotation.h" />
     <header-file src="src/ios/include/mupdf/fitz/bitmap.h" />
     <header-file src="src/ios/include/mupdf/fitz/buffer.h" />
@@ -125,6 +119,13 @@
 
     <!-- include: xps -->
     <header-file src="src/ios/include/mupdf/xps.h"/>
+
+
+    <!-- basic files -->
+    <source-file src="src/ios/common.m" compiler-flags="-fno-objc-arc"/>
+    <header-file src="src/ios/common.h" compiler-flags="-fno-objc-arc"/>
+    <source-file src="src/ios/MuPdfPlugin.m"/>
+    <header-file src="src/ios/MuPdfPlugin.h"/>
 
 
 

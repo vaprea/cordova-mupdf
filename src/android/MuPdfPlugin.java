@@ -32,10 +32,10 @@ public class MuPdfPlugin extends CordovaPlugin {
       Intent intent = new Intent(cordova.getActivity(), MuPDFActivity.class);
 
       intent.setAction(Intent.ACTION_VIEW);
-      intent.putExtra(KEY_TITLE, title);
+      /*intent.putExtra(KEY_TITLE, title);
       intent.putExtra(KEY_HEADER_COLOR, headerColor);
       intent.putExtra(KEY_ANNOTATIONS_ENABLED, annotationsEnabled);
-      intent.putExtra(KEY_IS_ANNOTATED_PDF, isAnnotatedPdf);
+      intent.putExtra(KEY_IS_ANNOTATED_PDF, isAnnotatedPdf); */
       intent.setData(uri);
 
       cordova.startActivityForResult(this, intent, 0);
