@@ -1,2 +1,2 @@
 # cordova-mupdf
-Cordova MuPDF plugin
+Cordova MuPDF plugin - Development mode, not for production
